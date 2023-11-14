@@ -6,7 +6,7 @@ The purpose of this project was to build a basic bit of javascript code to manip
  N/A
 ## Usage
 You can view the results of the calculations within the console command.
-![Image of Website with Dev Tools](./Assets/Capture.PNG"Image of Website with Dev Tools")
+![Image of Website with Dev Tools](./Assets/Capture.PNG "Image of Website with Dev Tools")
 
 
 ## Credits
