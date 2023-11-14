@@ -106,7 +106,19 @@ for (var i = 0; i < finances.length; i++) {
 }
 console.log('total Amount: $' + totalAmount);
 
+// Iterate each month.
+// Find the difference between current month and next month. (Subtract them)
+// Add this new number to the averageAmount
+// Divide this number at the end outside of the loop by the array length
 
+var averageAmount = 0;
+
+for (var i = 0; i < finances.length - 1; i++) {
+
+  averageAmount += finances[i + 1][1] - finances[i][1];
+}
+
+console.log( 'Average Change: '  + ((averageAmount / (finances.length - 1)).toFixed(2)));
 
 
 
